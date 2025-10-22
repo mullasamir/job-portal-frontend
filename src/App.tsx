@@ -1,18 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import '@mantine/core/styles.css'
 import './App.css'
-import { MantineProvider } from '@mantine/core'
+import { MantineProvider, Slider } from '@mantine/core'
+import HomePage from './Pages/HomePage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
       <MantineProvider> 
-        <h1> Hello World !!!</h1>  
+        
+      <HomePage/>
+        
       </MantineProvider>
-    </>
+    </div>
   )
 }
 
