@@ -1,7 +1,9 @@
 import { Avatar, Indicator } from '@mantine/core';
 
 import { IconAsset, IconBell, IconSettings, IconAnchor } from '@tabler/icons-react';
-import NavLinks from './Navlinks';
+import NavLinks from './NavLinks';
+// import NavLinks from ';
+
 
 const Header = () => {
     return (
